@@ -47,6 +47,8 @@ public class Controller {
 		//index가 가리키고있는 위치에 음악을 재생
 		mp3.play(musicList.get(index).getMusicPath());
 		show();
+		
+		System.out.println();
 	}
 	
 	//정지 만들기
