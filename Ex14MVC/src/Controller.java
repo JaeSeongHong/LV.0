@@ -49,6 +49,7 @@ public class Controller {
 		show();
 		
 		System.out.println();
+		System.out.println();
 	}
 	
 	//정지 만들기
