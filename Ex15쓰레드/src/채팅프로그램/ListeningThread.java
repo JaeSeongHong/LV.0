@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 import java.net.Socket;
 
 //다른 사용자들이 작성한 채팅 받는 기능
+
 public class ListeningThread extends Thread{
 	
 	private Socket socket = null; //서버 소켓 정보 저장
@@ -31,6 +32,7 @@ public class ListeningThread extends Thread{
 				//버퍼안에 있는 데이터 가져와서 출력->반복
 				System.out.println(reader.readLine());
 			}
+			
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
