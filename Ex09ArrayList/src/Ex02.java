@@ -13,7 +13,8 @@ public class Ex02 {
 		ArrayList<Integer> al = new ArrayList<Integer>(7);
 		
 		al.add(2); // 0번인덱스에 2라는 값을 넣겠다
-
+		System.out.println("al");
+		System.out.println();
 	}
 
 }
